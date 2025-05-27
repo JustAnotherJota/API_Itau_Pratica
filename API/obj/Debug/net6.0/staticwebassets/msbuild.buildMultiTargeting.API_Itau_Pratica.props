@@ -1,0 +1,3 @@
+﻿<Project>
+  <Import Project="..\build\API_Itau_Pratica.props" />
+</Project>

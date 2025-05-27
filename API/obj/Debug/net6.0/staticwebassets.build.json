@@ -1,0 +1,12 @@
+{
+  "Version": 1,
+  "Hash": "D4n2jfNz6xwHRtMbWpMQedoQpLFFOfVw4dE/cduPB6M=",
+  "Source": "API_Itau_Pratica",
+  "BasePath": "_content/API_Itau_Pratica",
+  "Mode": "Default",
+  "ManifestType": "Build",
+  "ReferencedProjectsConfiguration": [],
+  "DiscoveryPatterns": [],
+  "Assets": [],
+  "Endpoints": []
+}
