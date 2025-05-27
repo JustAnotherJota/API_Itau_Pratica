@@ -9,7 +9,10 @@
   <ItemGroup>
     <Folder Include="Mapping\" />
     <Folder Include="Configuration\" />
-    <Folder Include="Repositories\" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\API_Itau_Pratica.Domain\API_Itau_Pratica.Domain.csproj" />
   </ItemGroup>
 
 </Project>
