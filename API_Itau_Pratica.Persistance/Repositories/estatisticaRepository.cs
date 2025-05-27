@@ -18,9 +18,9 @@ namespace API_Itau_Pratica.Persistance.Repositories
             _transacaoRepository = transacaoRepository;
         }
 
-        public getEstatisticaTransacao GetEstatistica()
+        public getEstatistica GetEstatistica()
         {
-            getEstatisticaTransacao estasticas = new(contadorId(), soma(), average(), minimo(), maximo());
+            getEstatistica estasticas = new(contadorId(), soma(), average(), minimo(), maximo());
             return estasticas;
         }
 

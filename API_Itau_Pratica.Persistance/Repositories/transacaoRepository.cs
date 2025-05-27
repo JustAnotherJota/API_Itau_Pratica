@@ -14,9 +14,9 @@ namespace API_Itau_Pratica.Persistance.Repositories
     public class transacaoRepository : ItransacaoRepository
     {
         public List<transacao> transacaoList = new List<transacao>();
-        public valorTempoTransacaoPost FazendoTransacao(double valor, DateTime dateTime)
+        public postTransacao FazendoTransacao(double valor, DateTime dateTime)
         {
-            valorTempoTransacaoPost transacao1 = new(valor, dateTime);
+            postTransacao transacao1 = new(valor, dateTime);
             transacaoList.Add(transacao1);
 
             return transacao1;

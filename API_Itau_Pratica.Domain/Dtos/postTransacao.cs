@@ -7,11 +7,12 @@ using API_Itau_Pratica.Domain.Entidades;
 
 namespace API_Itau_Pratica.Domain.Dtos
 {
-    public class getEstatisticaTransacao : estatistica
+    public class postTransacao : transacao
     {
-        public getEstatisticaTransacao(int count ,double soma, double avg, double min, double max) 
+        public postTransacao(double valor1, DateTime dataHora1)
         {
+            valor = valor1;
+            dataHora = dataHora1;
         }
-
     }
 }
