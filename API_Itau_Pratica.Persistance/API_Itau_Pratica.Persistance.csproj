@@ -7,11 +7,6 @@
   </PropertyGroup>
 
   <ItemGroup>
-    <Folder Include="Mapping\" />
-    <Folder Include="Configuration\" />
-  </ItemGroup>
-
-  <ItemGroup>
     <ProjectReference Include="..\API_Itau_Pratica.Domain\API_Itau_Pratica.Domain.csproj" />
   </ItemGroup>
 

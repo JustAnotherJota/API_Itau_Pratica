@@ -5,16 +5,20 @@ using System.Text;
 using System.Threading.Tasks;
 using API_Itau_Pratica.Domain.Entidades;
 using API_Itau_Pratica.Domain.Repostory;
+using API_Itau_Pratica.Domain.Dtos;
+using System.Security.Cryptography.X509Certificates;
+using System.Reflection;
 
 namespace API_Itau_Pratica.Persistance.Repositories
 {
     public class transacaoRepository : ItransacaoRepository
     {
-        List<transacao> transacaoList;
-        public transacao FazendoTransacao(double valor, DateTime dateTime)
+        public List<transacao> transacaoList = new List<transacao>();
+        public valorTempoTransacaoPost FazendoTransacao(double valor, DateTime dateTime)
         {
-            transacao transacao1 = new(valor, dateTime);
+            valorTempoTransacaoPost transacao1 = new(valor, dateTime);
             transacaoList.Add(transacao1);
+
             return transacao1;
 
         }
@@ -23,7 +27,7 @@ namespace API_Itau_Pratica.Persistance.Repositories
         {
             foreach (transacao transacao in transacaoList)
             {
-                if(transacao.id == id) 
+                if (transacao.id == id)
                     transacaoList.Remove(transacao);
                 return "Todas as informações foram apagadas com sucesso";
             }

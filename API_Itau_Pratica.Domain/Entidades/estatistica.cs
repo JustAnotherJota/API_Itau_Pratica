@@ -8,7 +8,6 @@ namespace API_Itau_Pratica.Domain.Entidades
 {
     public class estatistica
     {
-        public int count;
         public double sum;
         public double avg;
         public double min;

@@ -11,16 +11,13 @@ namespace API_Itau_Pratica.Domain.Entidades
     {
         public double valor;
         public DateTime dataHora;
-        public int id;
+
+        public static int identityManual = 1;
+        public int id { get; private set; }
         public transacao()
         {
-            id++;
-        } 
-        public transacao(double valor1, DateTime dataHora1)
-        {
-            valor = valor1;
-            dataHora = dataHora1;
-            id++;
+            id = identityManual++;
         }
+
     }
 }
