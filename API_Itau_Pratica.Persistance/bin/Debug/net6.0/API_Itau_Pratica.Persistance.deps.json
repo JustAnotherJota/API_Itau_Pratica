@@ -1,0 +1,39 @@
+{
+  "runtimeTarget": {
+    "name": ".NETCoreApp,Version=v6.0",
+    "signature": ""
+  },
+  "compilationOptions": {},
+  "targets": {
+    ".NETCoreApp,Version=v6.0": {
+      "API_Itau_Pratica.Persistance/1.0.0": {
+        "dependencies": {
+          "API_Itau_Pratica.Domain": "1.0.0"
+        },
+        "runtime": {
+          "API_Itau_Pratica.Persistance.dll": {}
+        }
+      },
+      "API_Itau_Pratica.Domain/1.0.0": {
+        "runtime": {
+          "API_Itau_Pratica.Domain.dll": {
+            "assemblyVersion": "1.0.0",
+            "fileVersion": "1.0.0.0"
+          }
+        }
+      }
+    }
+  },
+  "libraries": {
+    "API_Itau_Pratica.Persistance/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "API_Itau_Pratica.Domain/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    }
+  }
+}

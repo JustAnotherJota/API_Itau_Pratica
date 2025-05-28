@@ -11,7 +11,7 @@ namespace API_Itau_Pratica.Persistance.Repositories
 {
     public class estatisticaRepository : IestatisticaRepository
     {
-        private readonly transacaoRepository _transacaoRepository;
+        private readonly transacaoRepository _transacaoRepository; //injeção de dependência para utilizar
 
         public estatisticaRepository(transacaoRepository transacaoRepository) 
         {

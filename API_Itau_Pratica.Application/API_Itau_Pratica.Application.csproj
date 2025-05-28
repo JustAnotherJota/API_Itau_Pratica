@@ -10,4 +10,8 @@
     <Folder Include="Configuration\" />
   </ItemGroup>
 
+  <ItemGroup>
+    <ProjectReference Include="..\API_Itau_Pratica.Persistance\API_Itau_Pratica.Persistance.csproj" />
+  </ItemGroup>
+
 </Project>

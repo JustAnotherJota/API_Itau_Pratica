@@ -1,0 +1,12 @@
+C:\Users\Jota\source\repos\API ITAU\API_Itau_Pratica\API_Itau_Pratica.Domain\bin\Debug\net6.0\API_Itau_Pratica.Domain.deps.json
+C:\Users\Jota\source\repos\API ITAU\API_Itau_Pratica\API_Itau_Pratica.Domain\bin\Debug\net6.0\API_Itau_Pratica.Domain.dll
+C:\Users\Jota\source\repos\API ITAU\API_Itau_Pratica\API_Itau_Pratica.Domain\bin\Debug\net6.0\API_Itau_Pratica.Domain.pdb
+C:\Users\Jota\source\repos\API ITAU\API_Itau_Pratica\API_Itau_Pratica.Domain\obj\Debug\net6.0\API_Itau_Pratica.Domain.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Jota\source\repos\API ITAU\API_Itau_Pratica\API_Itau_Pratica.Domain\obj\Debug\net6.0\API_Itau_Pratica.Domain.AssemblyInfoInputs.cache
+C:\Users\Jota\source\repos\API ITAU\API_Itau_Pratica\API_Itau_Pratica.Domain\obj\Debug\net6.0\API_Itau_Pratica.Domain.AssemblyInfo.cs
+C:\Users\Jota\source\repos\API ITAU\API_Itau_Pratica\API_Itau_Pratica.Domain\obj\Debug\net6.0\API_Itau_Pratica.Domain.csproj.CoreCompileInputs.cache
+C:\Users\Jota\source\repos\API ITAU\API_Itau_Pratica\API_Itau_Pratica.Domain\obj\Debug\net6.0\API_Itau_Pratica.Domain.sourcelink.json
+C:\Users\Jota\source\repos\API ITAU\API_Itau_Pratica\API_Itau_Pratica.Domain\obj\Debug\net6.0\API_Itau_Pratica.Domain.dll
+C:\Users\Jota\source\repos\API ITAU\API_Itau_Pratica\API_Itau_Pratica.Domain\obj\Debug\net6.0\refint\API_Itau_Pratica.Domain.dll
+C:\Users\Jota\source\repos\API ITAU\API_Itau_Pratica\API_Itau_Pratica.Domain\obj\Debug\net6.0\API_Itau_Pratica.Domain.pdb
+C:\Users\Jota\source\repos\API ITAU\API_Itau_Pratica\API_Itau_Pratica.Domain\obj\Debug\net6.0\ref\API_Itau_Pratica.Domain.dll

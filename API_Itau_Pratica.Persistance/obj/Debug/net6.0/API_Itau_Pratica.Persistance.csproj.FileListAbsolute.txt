@@ -1,0 +1,16 @@
+C:\Users\Jota\source\repos\API ITAU\API_Itau_Pratica\API_Itau_Pratica.Persistance\bin\Debug\net6.0\API_Itau_Pratica.Persistance.deps.json
+C:\Users\Jota\source\repos\API ITAU\API_Itau_Pratica\API_Itau_Pratica.Persistance\bin\Debug\net6.0\API_Itau_Pratica.Persistance.dll
+C:\Users\Jota\source\repos\API ITAU\API_Itau_Pratica\API_Itau_Pratica.Persistance\bin\Debug\net6.0\API_Itau_Pratica.Persistance.pdb
+C:\Users\Jota\source\repos\API ITAU\API_Itau_Pratica\API_Itau_Pratica.Persistance\bin\Debug\net6.0\API_Itau_Pratica.Domain.dll
+C:\Users\Jota\source\repos\API ITAU\API_Itau_Pratica\API_Itau_Pratica.Persistance\bin\Debug\net6.0\API_Itau_Pratica.Domain.pdb
+C:\Users\Jota\source\repos\API ITAU\API_Itau_Pratica\API_Itau_Pratica.Persistance\obj\Debug\net6.0\API_Itau_Pratica.Persistance.csproj.AssemblyReference.cache
+C:\Users\Jota\source\repos\API ITAU\API_Itau_Pratica\API_Itau_Pratica.Persistance\obj\Debug\net6.0\API_Itau_Pratica.Persistance.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Jota\source\repos\API ITAU\API_Itau_Pratica\API_Itau_Pratica.Persistance\obj\Debug\net6.0\API_Itau_Pratica.Persistance.AssemblyInfoInputs.cache
+C:\Users\Jota\source\repos\API ITAU\API_Itau_Pratica\API_Itau_Pratica.Persistance\obj\Debug\net6.0\API_Itau_Pratica.Persistance.AssemblyInfo.cs
+C:\Users\Jota\source\repos\API ITAU\API_Itau_Pratica\API_Itau_Pratica.Persistance\obj\Debug\net6.0\API_Itau_Pratica.Persistance.csproj.CoreCompileInputs.cache
+C:\Users\Jota\source\repos\API ITAU\API_Itau_Pratica\API_Itau_Pratica.Persistance\obj\Debug\net6.0\API_Itau_Pratica.Persistance.sourcelink.json
+C:\Users\Jota\source\repos\API ITAU\API_Itau_Pratica\API_Itau_Pratica.Persistance\obj\Debug\net6.0\API_Itau.E1B28D7F.Up2Date
+C:\Users\Jota\source\repos\API ITAU\API_Itau_Pratica\API_Itau_Pratica.Persistance\obj\Debug\net6.0\API_Itau_Pratica.Persistance.dll
+C:\Users\Jota\source\repos\API ITAU\API_Itau_Pratica\API_Itau_Pratica.Persistance\obj\Debug\net6.0\refint\API_Itau_Pratica.Persistance.dll
+C:\Users\Jota\source\repos\API ITAU\API_Itau_Pratica\API_Itau_Pratica.Persistance\obj\Debug\net6.0\API_Itau_Pratica.Persistance.pdb
+C:\Users\Jota\source\repos\API ITAU\API_Itau_Pratica\API_Itau_Pratica.Persistance\obj\Debug\net6.0\ref\API_Itau_Pratica.Persistance.dll

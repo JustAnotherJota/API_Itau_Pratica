@@ -1,11 +1,48 @@
 {
   "version": 3,
   "targets": {
-    "net6.0": {}
+    "net6.0": {
+      "API_Itau_Pratica.Domain/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v6.0",
+        "compile": {
+          "bin/placeholder/API_Itau_Pratica.Domain.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/API_Itau_Pratica.Domain.dll": {}
+        }
+      },
+      "API_Itau_Pratica.Persistance/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v6.0",
+        "dependencies": {
+          "API_Itau_Pratica.Domain": "1.0.0"
+        },
+        "compile": {
+          "bin/placeholder/API_Itau_Pratica.Persistance.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/API_Itau_Pratica.Persistance.dll": {}
+        }
+      }
+    }
   },
-  "libraries": {},
+  "libraries": {
+    "API_Itau_Pratica.Domain/1.0.0": {
+      "type": "project",
+      "path": "../API_Itau_Pratica.Domain/API_Itau_Pratica.Domain.csproj",
+      "msbuildProject": "../API_Itau_Pratica.Domain/API_Itau_Pratica.Domain.csproj"
+    },
+    "API_Itau_Pratica.Persistance/1.0.0": {
+      "type": "project",
+      "path": "../API_Itau_Pratica.Persistance/API_Itau_Pratica.Persistance.csproj",
+      "msbuildProject": "../API_Itau_Pratica.Persistance/API_Itau_Pratica.Persistance.csproj"
+    }
+  },
   "projectFileDependencyGroups": {
-    "net6.0": []
+    "net6.0": [
+      "API_Itau_Pratica.Persistance >= 1.0.0"
+    ]
   },
   "packageFolders": {
     "C:\\Users\\Jota\\.nuget\\packages\\": {},
@@ -38,7 +75,11 @@
       "frameworks": {
         "net6.0": {
           "targetAlias": "net6.0",
-          "projectReferences": {}
+          "projectReferences": {
+            "C:\\Users\\Jota\\source\\repos\\API ITAU\\API_Itau_Pratica\\API_Itau_Pratica.Persistance\\API_Itau_Pratica.Persistance.csproj": {
+              "projectPath": "C:\\Users\\Jota\\source\\repos\\API ITAU\\API_Itau_Pratica\\API_Itau_Pratica.Persistance\\API_Itau_Pratica.Persistance.csproj"
+            }
+          }
         }
       },
       "warningProperties": {

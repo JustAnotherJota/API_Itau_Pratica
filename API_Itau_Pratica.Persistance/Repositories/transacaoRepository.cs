@@ -13,8 +13,8 @@ namespace API_Itau_Pratica.Persistance.Repositories
 {
     public class transacaoRepository : ItransacaoRepository
     {
-        public List<transacao> transacaoList = new List<transacao>();
-        public postTransacao FazendoTransacao(double valor, DateTime dateTime)
+        public List<transacao> transacaoList = new List<transacao>(); //criando uma lista das transacoes que acontecerem;
+        public postTransacao FazendoTransacao(double valor, DateTime dateTime) 
         {
             postTransacao transacao1 = new(valor, dateTime);
             transacaoList.Add(transacao1);

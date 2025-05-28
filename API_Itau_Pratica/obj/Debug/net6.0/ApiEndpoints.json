@@ -1,0 +1,23 @@
+[
+  {
+    "ContainingType": "API_Itau_Pratica.Controllers.transacaoController",
+    "Method": "FazendoTransacao",
+    "RelativePath": "transacao/fazendoTransacao",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "valor",
+        "Type": "System.Double",
+        "IsRequired": true
+      },
+      {
+        "Name": "dateTime",
+        "Type": "System.DateTime",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": []
+  }
+]
