@@ -1,5 +1,31 @@
 [
   {
+    "ContainingType": "API_Itau_Pratica.Controllers.estatisticaController",
+    "Method": "GetEstatistica",
+    "RelativePath": "estatistica/GetEstatistica",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "API_Itau_Pratica.Controllers.transacaoController",
+    "Method": "DeletandoTransacao",
+    "RelativePath": "transacao/deletandoTransacao",
+    "HttpMethod": "DELETE",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
     "ContainingType": "API_Itau_Pratica.Controllers.transacaoController",
     "Method": "FazendoTransacao",
     "RelativePath": "transacao/fazendoTransacao",

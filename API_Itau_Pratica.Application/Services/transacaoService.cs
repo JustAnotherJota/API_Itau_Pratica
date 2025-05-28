@@ -12,9 +12,9 @@ namespace API_Itau_Pratica.Application.Services
     {
         private readonly transacaoRepository _transacaoRepository;
 
-        public transacaoService(transacaoRepository transacaoReposiory) 
+        public transacaoService(transacaoRepository transacaoRepository) 
         {
-            _transacaoRepository = transacaoReposiory;
+            _transacaoRepository = transacaoRepository;
         }
 
         public postTransacao FazendoTransacao(double valor, DateTime dateTime) 

@@ -18,10 +18,14 @@ namespace API_Itau_Pratica.Persistance.Repositories
             _transacaoRepository = transacaoRepository;
         }
 
-        public getEstatistica GetEstatistica()
+        public string GetEstatistica()
         {
             getEstatistica estasticas = new(contadorId(), soma(), average(), minimo(), maximo());
-            return estasticas;
+            return $"count: {contadorId()} \n" +
+                $"sum: {estasticas.sum} \n" +
+                $"avg: {estasticas.avg} \n" +
+                $"min: {estasticas.min} \n" +
+                $"max: {estasticas.max} \n";
         }
 
         public int contadorId()
@@ -62,14 +66,17 @@ namespace API_Itau_Pratica.Persistance.Repositories
         {
             var minimoTransacao = _transacaoRepository.transacaoList.Where(transacao => transacao.dataHora > DateTime.Now.AddSeconds(-60));
 
+            if (!(minimoTransacao.Any()))   
+                return 0;
             return minimoTransacao.Min(transacao => transacao.valor);
-
         }
 
         public double maximo()  //usando LINQ
         {
             var maximoTransacao = _transacaoRepository.transacaoList.Where(transacao => transacao.dataHora > DateTime.Now.AddSeconds(-60));
+            if(!(maximoTransacao.Any())) return 0;
             return maximoTransacao.Max(transacao => transacao.valor);
+
         }
     }
 }

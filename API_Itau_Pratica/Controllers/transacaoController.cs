@@ -24,5 +24,12 @@ namespace API_Itau_Pratica.Controllers
             var resultado = _transacaoService.FazendoTransacao(valor, dateTime);
             return Ok(resultado);
         }
+
+        [HttpDelete("deletandoTransacao")]
+        public IActionResult DeletandoTransacao([FromBody]int id) 
+        {
+            var resultado = _transacaoService.DeletandoTransacao(id);
+            return Ok(resultado);
+        }
     }
 }

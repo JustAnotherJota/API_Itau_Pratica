@@ -16,7 +16,7 @@ namespace API_Itau_Pratica.Application.Services
             _estasticaRepository = estatisticaRepository;
         }
 
-        public getEstatistica GetEstatistica() 
+        public string GetEstatistica() 
         {
             return _estasticaRepository.GetEstatistica();
         }

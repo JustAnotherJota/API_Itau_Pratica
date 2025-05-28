@@ -10,6 +10,6 @@ namespace API_Itau_Pratica.Domain.Repostory
 {
     public interface IestatisticaRepository
     {
-        public getEstatistica GetEstatistica();
+        public string GetEstatistica();
     }
 }

@@ -3,23 +3,43 @@
   "WorkspaceRootPath": "C:\\Users\\Jota\\source\\repos\\API ITAU\\API_Itau_Pratica\\API_Itau_Pratica\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{2F558C57-F047-4BF5-8257-E61B63B79B3D}|API_Itau_Pratica.csproj|c:\\users\\jota\\source\\repos\\api itau\\api_itau_pratica\\api_itau_pratica\\controllers\\transacaocontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{2F558C57-F047-4BF5-8257-E61B63B79B3D}|API_Itau_Pratica.csproj|solutionrelative:controllers\\transacaocontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{9BF2CC47-FB15-49E0-9140-82D73034C2C9}|..\\API_Itau_Pratica.Application\\API_Itau_Pratica.Application.csproj|c:\\users\\jota\\source\\repos\\api itau\\api_itau_pratica\\api_itau_pratica.application\\services\\transacaoservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9BF2CC47-FB15-49E0-9140-82D73034C2C9}|..\\API_Itau_Pratica.Application\\API_Itau_Pratica.Application.csproj|c:\\users\\jota\\source\\repos\\api itau\\api_itau_pratica\\api_itau_pratica.application\\services\\estatisticaservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{39AAD57F-7587-4A7A-92A7-A24B889044BB}|..\\API_Itau_Pratica.Persistance\\API_Itau_Pratica.Persistance.csproj|c:\\users\\jota\\source\\repos\\api itau\\api_itau_pratica\\api_itau_pratica.persistance\\repositories\\estatisticarepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{39AAD57F-7587-4A7A-92A7-A24B889044BB}|..\\API_Itau_Pratica.Persistance\\API_Itau_Pratica.Persistance.csproj|c:\\users\\jota\\source\\repos\\api itau\\api_itau_pratica\\api_itau_pratica.persistance\\repositories\\transacaorepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{9BF2CC47-FB15-49E0-9140-82D73034C2C9}|..\\API_Itau_Pratica.Application\\API_Itau_Pratica.Application.csproj|c:\\users\\jota\\source\\repos\\api itau\\api_itau_pratica\\api_itau_pratica.application\\api_itau_pratica.application.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
+      "AbsoluteMoniker": "D:0:0:{2F558C57-F047-4BF5-8257-E61B63B79B3D}|API_Itau_Pratica.csproj|c:\\users\\jota\\source\\repos\\api itau\\api_itau_pratica\\api_itau_pratica\\controllers\\transacaocontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2F558C57-F047-4BF5-8257-E61B63B79B3D}|API_Itau_Pratica.csproj|solutionrelative:controllers\\transacaocontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{9BF2CC47-FB15-49E0-9140-82D73034C2C9}|..\\API_Itau_Pratica.Application\\API_Itau_Pratica.Application.csproj|c:\\users\\jota\\source\\repos\\api itau\\api_itau_pratica\\api_itau_pratica.application\\services\\transacaoservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{2F558C57-F047-4BF5-8257-E61B63B79B3D}|API_Itau_Pratica.csproj|c:\\users\\jota\\source\\repos\\api itau\\api_itau_pratica\\api_itau_pratica\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2F558C57-F047-4BF5-8257-E61B63B79B3D}|API_Itau_Pratica.csproj|solutionrelative:program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2F558C57-F047-4BF5-8257-E61B63B79B3D}|API_Itau_Pratica.csproj|c:\\users\\jota\\source\\repos\\api itau\\api_itau_pratica\\api_itau_pratica\\controllers\\estatisticacontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2F558C57-F047-4BF5-8257-E61B63B79B3D}|API_Itau_Pratica.csproj|solutionrelative:controllers\\estatisticacontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{BDB6FD52-3110-49D4-8AA6-5380ADB7FCE2}|..\\API_Itau_Pratica.Domain\\API_Itau_Pratica.Domain.csproj|c:\\users\\jota\\source\\repos\\api itau\\api_itau_pratica\\api_itau_pratica.domain\\dtos\\getestatistica.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{BDB6FD52-3110-49D4-8AA6-5380ADB7FCE2}|..\\API_Itau_Pratica.Domain\\API_Itau_Pratica.Domain.csproj|c:\\users\\jota\\source\\repos\\api itau\\api_itau_pratica\\api_itau_pratica.domain\\dtos\\posttransacao.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{9BF2CC47-FB15-49E0-9140-82D73034C2C9}|..\\API_Itau_Pratica.Application\\API_Itau_Pratica.Application.csproj|c:\\users\\jota\\source\\repos\\api itau\\api_itau_pratica\\api_itau_pratica.application\\services\\estatisticaservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{BDB6FD52-3110-49D4-8AA6-5380ADB7FCE2}|..\\API_Itau_Pratica.Domain\\API_Itau_Pratica.Domain.csproj|c:\\users\\jota\\source\\repos\\api itau\\api_itau_pratica\\api_itau_pratica.domain\\repostory\\iestatisticarepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9BF2CC47-FB15-49E0-9140-82D73034C2C9}|..\\API_Itau_Pratica.Application\\API_Itau_Pratica.Application.csproj|c:\\users\\jota\\source\\repos\\api itau\\api_itau_pratica\\api_itau_pratica.application\\api_itau_pratica.application.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{BDB6FD52-3110-49D4-8AA6-5380ADB7FCE2}|..\\API_Itau_Pratica.Domain\\API_Itau_Pratica.Domain.csproj|c:\\users\\jota\\source\\repos\\api itau\\api_itau_pratica\\api_itau_pratica.domain\\entidades\\transacao.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{2F558C57-F047-4BF5-8257-E61B63B79B3D}|API_Itau_Pratica.csproj|c:\\users\\jota\\source\\repos\\api itau\\api_itau_pratica\\api_itau_pratica\\api_itau_pratica.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
@@ -30,30 +50,10 @@
       "RelativeMoniker": "D:0:0:{2F558C57-F047-4BF5-8257-E61B63B79B3D}|API_Itau_Pratica.csproj|solutionrelative:properties\\launchsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{2F558C57-F047-4BF5-8257-E61B63B79B3D}|API_Itau_Pratica.csproj|c:\\users\\jota\\source\\repos\\api itau\\api_itau_pratica\\api_itau_pratica\\weatherforecast.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{2F558C57-F047-4BF5-8257-E61B63B79B3D}|API_Itau_Pratica.csproj|solutionrelative:weatherforecast.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{2F558C57-F047-4BF5-8257-E61B63B79B3D}|API_Itau_Pratica.csproj|c:\\users\\jota\\source\\repos\\api itau\\api_itau_pratica\\api_itau_pratica\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{2F558C57-F047-4BF5-8257-E61B63B79B3D}|API_Itau_Pratica.csproj|solutionrelative:program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{39AAD57F-7587-4A7A-92A7-A24B889044BB}|..\\API_Itau_Pratica.Persistance\\API_Itau_Pratica.Persistance.csproj|c:\\users\\jota\\source\\repos\\api itau\\api_itau_pratica\\api_itau_pratica.persistance\\repositories\\estatisticarepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{39AAD57F-7587-4A7A-92A7-A24B889044BB}|..\\API_Itau_Pratica.Persistance\\API_Itau_Pratica.Persistance.csproj|c:\\users\\jota\\source\\repos\\api itau\\api_itau_pratica\\api_itau_pratica.persistance\\api_itau_pratica.persistance.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{BDB6FD52-3110-49D4-8AA6-5380ADB7FCE2}|..\\API_Itau_Pratica.Domain\\API_Itau_Pratica.Domain.csproj|c:\\users\\jota\\source\\repos\\api itau\\api_itau_pratica\\api_itau_pratica.domain\\dtos\\getestatistica.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{BDB6FD52-3110-49D4-8AA6-5380ADB7FCE2}|..\\API_Itau_Pratica.Domain\\API_Itau_Pratica.Domain.csproj|c:\\users\\jota\\source\\repos\\api itau\\api_itau_pratica\\api_itau_pratica.domain\\entidades\\estatistica.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{BDB6FD52-3110-49D4-8AA6-5380ADB7FCE2}|..\\API_Itau_Pratica.Domain\\API_Itau_Pratica.Domain.csproj|c:\\users\\jota\\source\\repos\\api itau\\api_itau_pratica\\api_itau_pratica.domain\\entidades\\transacao.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{BDB6FD52-3110-49D4-8AA6-5380ADB7FCE2}|..\\API_Itau_Pratica.Domain\\API_Itau_Pratica.Domain.csproj|c:\\users\\jota\\source\\repos\\api itau\\api_itau_pratica\\api_itau_pratica.domain\\repostory\\iestatisticarepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{BDB6FD52-3110-49D4-8AA6-5380ADB7FCE2}|..\\API_Itau_Pratica.Domain\\API_Itau_Pratica.Domain.csproj|c:\\users\\jota\\source\\repos\\api itau\\api_itau_pratica\\api_itau_pratica.domain\\repostory\\itransacaorepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
@@ -70,20 +70,33 @@
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "API_Itau_Pratica.Application",
-              "DocumentMoniker": "C:\\Users\\Jota\\source\\repos\\API ITAU\\API_Itau_Pratica\\API_Itau_Pratica.Application\\API_Itau_Pratica.Application.csproj",
-              "RelativeDocumentMoniker": "..\\API_Itau_Pratica.Application\\API_Itau_Pratica.Application.csproj",
-              "ToolTip": "C:\\Users\\Jota\\source\\repos\\API ITAU\\API_Itau_Pratica\\API_Itau_Pratica.Application\\API_Itau_Pratica.Application.csproj",
-              "RelativeToolTip": "..\\API_Itau_Pratica.Application\\API_Itau_Pratica.Application.csproj",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
-              "WhenOpened": "2025-05-28T01:23:07.145Z",
+              "DocumentIndex": 6,
+              "Title": "estatisticaController.cs",
+              "DocumentMoniker": "C:\\Users\\Jota\\source\\repos\\API ITAU\\API_Itau_Pratica\\API_Itau_Pratica\\Controllers\\estatisticaController.cs",
+              "RelativeDocumentMoniker": "Controllers\\estatisticaController.cs",
+              "ToolTip": "C:\\Users\\Jota\\source\\repos\\API ITAU\\API_Itau_Pratica\\API_Itau_Pratica\\Controllers\\estatisticaController.cs",
+              "RelativeToolTip": "Controllers\\estatisticaController.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABkAAAAhAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-28T01:33:28.821Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 7,
+              "DocumentIndex": 11,
+              "Title": "transacao.cs",
+              "DocumentMoniker": "C:\\Users\\Jota\\source\\repos\\API ITAU\\API_Itau_Pratica\\API_Itau_Pratica.Domain\\Entidades\\transacao.cs",
+              "RelativeDocumentMoniker": "..\\API_Itau_Pratica.Domain\\Entidades\\transacao.cs",
+              "ToolTip": "C:\\Users\\Jota\\source\\repos\\API ITAU\\API_Itau_Pratica\\API_Itau_Pratica.Domain\\Entidades\\transacao.cs",
+              "RelativeToolTip": "..\\API_Itau_Pratica.Domain\\Entidades\\transacao.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABEAAAAJAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-27T15:18:31.357Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 13,
               "Title": "launchSettings.json",
               "DocumentMoniker": "C:\\Users\\Jota\\source\\repos\\API ITAU\\API_Itau_Pratica\\API_Itau_Pratica\\Properties\\launchSettings.json",
               "RelativeDocumentMoniker": "Properties\\launchSettings.json",
@@ -91,51 +104,89 @@
               "RelativeToolTip": "Properties\\launchSettings.json",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
-              "WhenOpened": "2025-05-28T01:21:07.805Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-05-28T01:21:07.805Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 9,
-              "Title": "Program.cs",
-              "DocumentMoniker": "C:\\Users\\Jota\\source\\repos\\API ITAU\\API_Itau_Pratica\\API_Itau_Pratica\\Program.cs",
-              "RelativeDocumentMoniker": "Program.cs",
-              "ToolTip": "C:\\Users\\Jota\\source\\repos\\API ITAU\\API_Itau_Pratica\\API_Itau_Pratica\\Program.cs",
-              "RelativeToolTip": "Program.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-28T01:21:01.426Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 8,
-              "Title": "WeatherForecast.cs",
-              "DocumentMoniker": "C:\\Users\\Jota\\source\\repos\\API ITAU\\API_Itau_Pratica\\API_Itau_Pratica\\WeatherForecast.cs",
-              "RelativeDocumentMoniker": "WeatherForecast.cs",
-              "ToolTip": "C:\\Users\\Jota\\source\\repos\\API ITAU\\API_Itau_Pratica\\API_Itau_Pratica\\WeatherForecast.cs",
-              "RelativeToolTip": "WeatherForecast.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-28T01:21:00.483Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 4,
               "Title": "transacaoController.cs",
               "DocumentMoniker": "C:\\Users\\Jota\\source\\repos\\API ITAU\\API_Itau_Pratica\\API_Itau_Pratica\\Controllers\\transacaoController.cs",
               "RelativeDocumentMoniker": "Controllers\\transacaoController.cs",
               "ToolTip": "C:\\Users\\Jota\\source\\repos\\API ITAU\\API_Itau_Pratica\\API_Itau_Pratica\\Controllers\\transacaoController.cs",
               "RelativeToolTip": "Controllers\\transacaoController.cs",
-              "ViewState": "AgIAAAMAAAAAAAAAAAAAABsAAAABAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAswBIAAAAIAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-05-28T01:18:56.014Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 6,
+              "DocumentIndex": 0,
+              "Title": "transacaoService.cs",
+              "DocumentMoniker": "C:\\Users\\Jota\\source\\repos\\API ITAU\\API_Itau_Pratica\\API_Itau_Pratica.Application\\Services\\transacaoService.cs",
+              "RelativeDocumentMoniker": "..\\API_Itau_Pratica.Application\\Services\\transacaoService.cs",
+              "ToolTip": "C:\\Users\\Jota\\source\\repos\\API ITAU\\API_Itau_Pratica\\API_Itau_Pratica.Application\\Services\\transacaoService.cs",
+              "RelativeToolTip": "..\\API_Itau_Pratica.Application\\Services\\transacaoService.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAqwBkAAAAxAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-27T21:58:00.141Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "estatisticaService.cs",
+              "DocumentMoniker": "C:\\Users\\Jota\\source\\repos\\API ITAU\\API_Itau_Pratica\\API_Itau_Pratica.Application\\Services\\estatisticaService.cs",
+              "RelativeDocumentMoniker": "..\\API_Itau_Pratica.Application\\Services\\estatisticaService.cs",
+              "ToolTip": "C:\\Users\\Jota\\source\\repos\\API ITAU\\API_Itau_Pratica\\API_Itau_Pratica.Application\\Services\\estatisticaService.cs",
+              "RelativeToolTip": "..\\API_Itau_Pratica.Application\\Services\\estatisticaService.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABIAAAAVAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-27T21:58:10.683Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "transacaoRepository.cs",
+              "DocumentMoniker": "C:\\Users\\Jota\\source\\repos\\API ITAU\\API_Itau_Pratica\\API_Itau_Pratica.Persistance\\Repositories\\transacaoRepository.cs",
+              "RelativeDocumentMoniker": "..\\API_Itau_Pratica.Persistance\\Repositories\\transacaoRepository.cs",
+              "ToolTip": "C:\\Users\\Jota\\source\\repos\\API ITAU\\API_Itau_Pratica\\API_Itau_Pratica.Persistance\\Repositories\\transacaoRepository.cs",
+              "RelativeToolTip": "..\\API_Itau_Pratica.Persistance\\Repositories\\transacaoRepository.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAqwA8AAAAIAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-27T15:18:24.292Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "IestatisticaRepository.cs",
+              "DocumentMoniker": "C:\\Users\\Jota\\source\\repos\\API ITAU\\API_Itau_Pratica\\API_Itau_Pratica.Domain\\Repostory\\IestatisticaRepository.cs",
+              "RelativeDocumentMoniker": "..\\API_Itau_Pratica.Domain\\Repostory\\IestatisticaRepository.cs",
+              "ToolTip": "C:\\Users\\Jota\\source\\repos\\API ITAU\\API_Itau_Pratica\\API_Itau_Pratica.Domain\\Repostory\\IestatisticaRepository.cs",
+              "RelativeToolTip": "..\\API_Itau_Pratica.Domain\\Repostory\\IestatisticaRepository.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAAVAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-27T15:18:47.271Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\Jota\\source\\repos\\API ITAU\\API_Itau_Pratica\\API_Itau_Pratica\\Program.cs",
+              "RelativeDocumentMoniker": "Program.cs",
+              "ToolTip": "C:\\Users\\Jota\\source\\repos\\API ITAU\\API_Itau_Pratica\\API_Itau_Pratica\\Program.cs",
+              "RelativeToolTip": "Program.cs",
+              "ViewState": "AgIAABsAAAAAAAAAAAAUwC0AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-28T01:21:01.426Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
               "Title": "API_Itau_Pratica.csproj",
               "DocumentMoniker": "C:\\Users\\Jota\\source\\repos\\API ITAU\\API_Itau_Pratica\\API_Itau_Pratica\\API_Itau_Pratica.csproj",
               "RelativeDocumentMoniker": "API_Itau_Pratica.csproj",
@@ -148,59 +199,33 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 5,
-              "Title": "estatisticaService.cs",
-              "DocumentMoniker": "C:\\Users\\Jota\\source\\repos\\API ITAU\\API_Itau_Pratica\\API_Itau_Pratica.Application\\Services\\estatisticaService.cs",
-              "RelativeDocumentMoniker": "..\\API_Itau_Pratica.Application\\Services\\estatisticaService.cs",
-              "ToolTip": "C:\\Users\\Jota\\source\\repos\\API ITAU\\API_Itau_Pratica\\API_Itau_Pratica.Application\\Services\\estatisticaService.cs",
-              "RelativeToolTip": "..\\API_Itau_Pratica.Application\\Services\\estatisticaService.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAAAAAAAAAAAAA==",
+              "DocumentIndex": 2,
+              "Title": "estatisticaRepository.cs",
+              "DocumentMoniker": "C:\\Users\\Jota\\source\\repos\\API ITAU\\API_Itau_Pratica\\API_Itau_Pratica.Persistance\\Repositories\\estatisticaRepository.cs",
+              "RelativeDocumentMoniker": "..\\API_Itau_Pratica.Persistance\\Repositories\\estatisticaRepository.cs",
+              "ToolTip": "C:\\Users\\Jota\\source\\repos\\API ITAU\\API_Itau_Pratica\\API_Itau_Pratica.Persistance\\Repositories\\estatisticaRepository.cs",
+              "RelativeToolTip": "..\\API_Itau_Pratica.Persistance\\Repositories\\estatisticaRepository.cs",
+              "ViewState": "AgIAAAcAAAAAAAAAAAAAABsAAAAqAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-27T21:58:10.683Z",
+              "WhenOpened": "2025-05-27T15:20:49.378Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
-              "Title": "transacaoService.cs",
-              "DocumentMoniker": "C:\\Users\\Jota\\source\\repos\\API ITAU\\API_Itau_Pratica\\API_Itau_Pratica.Application\\Services\\transacaoService.cs",
-              "RelativeDocumentMoniker": "..\\API_Itau_Pratica.Application\\Services\\transacaoService.cs",
-              "ToolTip": "C:\\Users\\Jota\\source\\repos\\API ITAU\\API_Itau_Pratica\\API_Itau_Pratica.Application\\Services\\transacaoService.cs",
-              "RelativeToolTip": "..\\API_Itau_Pratica.Application\\Services\\transacaoService.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "DocumentIndex": 7,
+              "Title": "getEstatistica.cs",
+              "DocumentMoniker": "C:\\Users\\Jota\\source\\repos\\API ITAU\\API_Itau_Pratica\\API_Itau_Pratica.Domain\\Dtos\\getEstatistica.cs",
+              "RelativeDocumentMoniker": "..\\API_Itau_Pratica.Domain\\Dtos\\getEstatistica.cs",
+              "ToolTip": "C:\\Users\\Jota\\source\\repos\\API ITAU\\API_Itau_Pratica\\API_Itau_Pratica.Domain\\Dtos\\getEstatistica.cs",
+              "RelativeToolTip": "..\\API_Itau_Pratica.Domain\\Dtos\\getEstatistica.cs",
+              "ViewState": "AgIAAAMAAAAAAAAAAAAqwA0AAAAJAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-27T21:58:00.141Z",
+              "WhenOpened": "2025-05-27T15:25:47.648Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "transacaoRepository.cs",
-              "DocumentMoniker": "C:\\Users\\Jota\\source\\repos\\API ITAU\\API_Itau_Pratica\\API_Itau_Pratica.Persistance\\Repositories\\transacaoRepository.cs",
-              "RelativeDocumentMoniker": "..\\API_Itau_Pratica.Persistance\\Repositories\\transacaoRepository.cs",
-              "ToolTip": "C:\\Users\\Jota\\source\\repos\\API ITAU\\API_Itau_Pratica\\API_Itau_Pratica.Persistance\\Repositories\\transacaoRepository.cs",
-              "RelativeToolTip": "..\\API_Itau_Pratica.Persistance\\Repositories\\transacaoRepository.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAACIAAAAIAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-27T15:18:24.292Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 11,
-              "Title": "API_Itau_Pratica.Persistance.csproj",
-              "DocumentMoniker": "C:\\Users\\Jota\\source\\repos\\API ITAU\\API_Itau_Pratica\\API_Itau_Pratica.Persistance\\API_Itau_Pratica.Persistance.csproj",
-              "RelativeDocumentMoniker": "..\\API_Itau_Pratica.Persistance\\API_Itau_Pratica.Persistance.csproj",
-              "ToolTip": "C:\\Users\\Jota\\source\\repos\\API ITAU\\API_Itau_Pratica\\API_Itau_Pratica.Persistance\\API_Itau_Pratica.Persistance.csproj",
-              "RelativeToolTip": "..\\API_Itau_Pratica.Persistance\\API_Itau_Pratica.Persistance.csproj",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAA6AAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
-              "WhenOpened": "2025-05-28T00:59:47.402Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 4,
+              "DocumentIndex": 8,
               "Title": "postTransacao.cs",
               "DocumentMoniker": "C:\\Users\\Jota\\source\\repos\\API ITAU\\API_Itau_Pratica\\API_Itau_Pratica.Domain\\Dtos\\postTransacao.cs",
               "RelativeDocumentMoniker": "..\\API_Itau_Pratica.Domain\\Dtos\\postTransacao.cs",
@@ -213,43 +238,33 @@
             },
             {
               "$type": "Document",
+              "DocumentIndex": 14,
+              "Title": "API_Itau_Pratica.Persistance.csproj",
+              "DocumentMoniker": "C:\\Users\\Jota\\source\\repos\\API ITAU\\API_Itau_Pratica\\API_Itau_Pratica.Persistance\\API_Itau_Pratica.Persistance.csproj",
+              "RelativeDocumentMoniker": "..\\API_Itau_Pratica.Persistance\\API_Itau_Pratica.Persistance.csproj",
+              "ToolTip": "C:\\Users\\Jota\\source\\repos\\API ITAU\\API_Itau_Pratica\\API_Itau_Pratica.Persistance\\API_Itau_Pratica.Persistance.csproj",
+              "RelativeToolTip": "..\\API_Itau_Pratica.Persistance\\API_Itau_Pratica.Persistance.csproj",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAA6AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
+              "WhenOpened": "2025-05-28T00:59:47.402Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
               "DocumentIndex": 10,
-              "Title": "estatisticaRepository.cs",
-              "DocumentMoniker": "C:\\Users\\Jota\\source\\repos\\API ITAU\\API_Itau_Pratica\\API_Itau_Pratica.Persistance\\Repositories\\estatisticaRepository.cs",
-              "RelativeDocumentMoniker": "..\\API_Itau_Pratica.Persistance\\Repositories\\estatisticaRepository.cs",
-              "ToolTip": "C:\\Users\\Jota\\source\\repos\\API ITAU\\API_Itau_Pratica\\API_Itau_Pratica.Persistance\\Repositories\\estatisticaRepository.cs",
-              "RelativeToolTip": "..\\API_Itau_Pratica.Persistance\\Repositories\\estatisticaRepository.cs",
-              "ViewState": "AgIAAAYAAAAAAAAAAAAqwBkAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-27T15:20:49.378Z"
+              "Title": "API_Itau_Pratica.Application.csproj",
+              "DocumentMoniker": "C:\\Users\\Jota\\source\\repos\\API ITAU\\API_Itau_Pratica\\API_Itau_Pratica.Application\\API_Itau_Pratica.Application.csproj",
+              "RelativeDocumentMoniker": "..\\API_Itau_Pratica.Application\\API_Itau_Pratica.Application.csproj",
+              "ToolTip": "C:\\Users\\Jota\\source\\repos\\API ITAU\\API_Itau_Pratica\\API_Itau_Pratica.Application\\API_Itau_Pratica.Application.csproj",
+              "RelativeToolTip": "..\\API_Itau_Pratica.Application\\API_Itau_Pratica.Application.csproj",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAAA/AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
+              "WhenOpened": "2025-05-28T01:23:07.145Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 15,
-              "Title": "IestatisticaRepository.cs",
-              "DocumentMoniker": "C:\\Users\\Jota\\source\\repos\\API ITAU\\API_Itau_Pratica\\API_Itau_Pratica.Domain\\Repostory\\IestatisticaRepository.cs",
-              "RelativeDocumentMoniker": "..\\API_Itau_Pratica.Domain\\Repostory\\IestatisticaRepository.cs",
-              "ToolTip": "C:\\Users\\Jota\\source\\repos\\API ITAU\\API_Itau_Pratica\\API_Itau_Pratica.Domain\\Repostory\\IestatisticaRepository.cs",
-              "RelativeToolTip": "..\\API_Itau_Pratica.Domain\\Repostory\\IestatisticaRepository.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAA4AAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-27T15:18:47.271Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 14,
-              "Title": "transacao.cs",
-              "DocumentMoniker": "C:\\Users\\Jota\\source\\repos\\API ITAU\\API_Itau_Pratica\\API_Itau_Pratica.Domain\\Entidades\\transacao.cs",
-              "RelativeDocumentMoniker": "..\\API_Itau_Pratica.Domain\\Entidades\\transacao.cs",
-              "ToolTip": "C:\\Users\\Jota\\source\\repos\\API ITAU\\API_Itau_Pratica\\API_Itau_Pratica.Domain\\Entidades\\transacao.cs",
-              "RelativeToolTip": "..\\API_Itau_Pratica.Domain\\Entidades\\transacao.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABcAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-27T15:18:31.357Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 13,
               "Title": "estatistica.cs",
               "DocumentMoniker": "C:\\Users\\Jota\\source\\repos\\API ITAU\\API_Itau_Pratica\\API_Itau_Pratica.Domain\\Entidades\\estatistica.cs",
               "RelativeDocumentMoniker": "..\\API_Itau_Pratica.Domain\\Entidades\\estatistica.cs",
@@ -258,18 +273,6 @@
               "ViewState": "AgIAAAAAAAAAAAAAAAAAABAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-05-27T15:18:29.57Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 12,
-              "Title": "getEstatistica.cs",
-              "DocumentMoniker": "C:\\Users\\Jota\\source\\repos\\API ITAU\\API_Itau_Pratica\\API_Itau_Pratica.Domain\\Dtos\\getEstatistica.cs",
-              "RelativeDocumentMoniker": "..\\API_Itau_Pratica.Domain\\Dtos\\getEstatistica.cs",
-              "ToolTip": "C:\\Users\\Jota\\source\\repos\\API ITAU\\API_Itau_Pratica\\API_Itau_Pratica.Domain\\Dtos\\getEstatistica.cs",
-              "RelativeToolTip": "..\\API_Itau_Pratica.Domain\\Dtos\\getEstatistica.cs",
-              "ViewState": "AgIAAAMAAAAAAAAAAAAqwAkAAAAfAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-27T15:25:47.648Z"
             },
             {
               "$type": "Document",

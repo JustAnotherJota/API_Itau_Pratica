@@ -5,6 +5,18 @@
     "version": "1.0"
   },
   "paths": {
+    "/estatistica/GetEstatistica": {
+      "get": {
+        "tags": [
+          "estatistica"
+        ],
+        "responses": {
+          "200": {
+            "description": "Success"
+          }
+        }
+      }
+    },
     "/transacao/fazendoTransacao": {
       "post": {
         "tags": [
@@ -38,6 +50,40 @@
               "schema": {
                 "type": "number",
                 "format": "double"
+              }
+            }
+          }
+        },
+        "responses": {
+          "200": {
+            "description": "Success"
+          }
+        }
+      }
+    },
+    "/transacao/deletandoTransacao": {
+      "delete": {
+        "tags": [
+          "transacao"
+        ],
+        "requestBody": {
+          "content": {
+            "application/json": {
+              "schema": {
+                "type": "integer",
+                "format": "int32"
+              }
+            },
+            "text/json": {
+              "schema": {
+                "type": "integer",
+                "format": "int32"
+              }
+            },
+            "application/*+json": {
+              "schema": {
+                "type": "integer",
+                "format": "int32"
               }
             }
           }
