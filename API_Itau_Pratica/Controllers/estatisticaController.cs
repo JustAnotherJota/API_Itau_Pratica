@@ -4,7 +4,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 using API_Itau_Pratica.Application.Services;
-using API_Itau_Pratica.Domain.Repostory;
+using API_Itau_Pratica.Domain.Repository;
 using API_Itau_Pratica.Persistance.Repositories;
 using Microsoft.AspNetCore.Mvc;
 

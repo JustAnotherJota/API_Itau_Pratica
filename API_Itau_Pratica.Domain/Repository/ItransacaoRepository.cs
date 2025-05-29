@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 using API_Itau_Pratica.Domain.Dtos;
 using API_Itau_Pratica.Domain.Entidades;
 
-namespace API_Itau_Pratica.Domain.Repostory
+namespace API_Itau_Pratica.Domain.Repository
 {
     public interface ItransacaoRepository
     {
