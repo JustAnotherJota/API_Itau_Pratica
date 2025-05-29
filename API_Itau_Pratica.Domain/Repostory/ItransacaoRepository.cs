@@ -10,7 +10,7 @@ namespace API_Itau_Pratica.Domain.Repostory
 {
     public interface ItransacaoRepository
     {
-        public postTransacao FazendoTransacao(double valor, DateTime dateTime);
+        public string FazendoTransacao(postTransacao transacao);
         public string DeletandoTransacao(int id);
     }
 }

@@ -9,10 +9,12 @@ namespace API_Itau_Pratica.Domain.Dtos
 {
     public class postTransacao : transacao
     {
-        public postTransacao(double valor1, DateTime dataHora1)
+        public postTransacao(double valor1)
         {
             valor = valor1;
-            dataHora = dataHora1;
+            dataHora = DateTime.Now;
         }
+
+        public postTransacao() { }
     }
 }

@@ -14,12 +14,13 @@ namespace API_Itau_Pratica.Persistance.Repositories
     public class transacaoRepository : ItransacaoRepository
     {
         public List<transacao> transacaoList = new List<transacao>(); //criando uma lista das transacoes que acontecerem;
-        public postTransacao FazendoTransacao(double valor, DateTime dateTime) 
+        public string FazendoTransacao(postTransacao transacao) 
         {
-            postTransacao transacao1 = new(valor, dateTime);
+            postTransacao transacao1 = new(transacao.valor);
             transacaoList.Add(transacao1);
 
-            return transacao1;
+            return $"{transacao1.valor} \n" +
+                $"{transacao1.dataHora}";
 
         }
 
@@ -28,10 +29,14 @@ namespace API_Itau_Pratica.Persistance.Repositories
             foreach (transacao transacao in transacaoList)
             {
                 if (transacao.id == id)
+                {
                     transacaoList.Remove(transacao);
-                return "Todas as informações foram apagadas com sucesso";
+                    return "Todas as informações foram apagadas com sucesso";
+                }
+                    
             }
-            return "Todas as informações foram apagadas com sucesso (diferenciando que aqui não houve id encontrado para ser apagado)";
+            return "Esse ID não existe";
+
         }
     }
 }

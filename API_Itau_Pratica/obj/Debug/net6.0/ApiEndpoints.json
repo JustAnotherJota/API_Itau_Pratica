@@ -12,7 +12,7 @@
   {
     "ContainingType": "API_Itau_Pratica.Controllers.transacaoController",
     "Method": "DeletandoTransacao",
-    "RelativePath": "transacao/deletandoTransacao",
+    "RelativePath": "transacao/deletandoTransacao/{id}",
     "HttpMethod": "DELETE",
     "IsController": true,
     "Order": 0,
@@ -34,14 +34,9 @@
     "Order": 0,
     "Parameters": [
       {
-        "Name": "valor",
-        "Type": "System.Double",
+        "Name": "transacao",
+        "Type": "API_Itau_Pratica.Domain.Dtos.postTransacao",
         "IsRequired": true
-      },
-      {
-        "Name": "dateTime",
-        "Type": "System.DateTime",
-        "IsRequired": false
       }
     ],
     "ReturnTypes": []

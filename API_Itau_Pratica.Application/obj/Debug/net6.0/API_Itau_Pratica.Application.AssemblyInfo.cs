@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("API_Itau_Pratica.Application")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+a14d814458eb710053aa3f9eed4e9ec436a134f2")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+1b593b17bd3e91a4cb628053b55beddf969090cf")]
 [assembly: System.Reflection.AssemblyProductAttribute("API_Itau_Pratica.Application")]
 [assembly: System.Reflection.AssemblyTitleAttribute("API_Itau_Pratica.Application")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

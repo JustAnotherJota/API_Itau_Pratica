@@ -22,34 +22,21 @@
         "tags": [
           "transacao"
         ],
-        "parameters": [
-          {
-            "name": "dateTime",
-            "in": "query",
-            "schema": {
-              "type": "string",
-              "format": "date-time"
-            }
-          }
-        ],
         "requestBody": {
           "content": {
             "application/json": {
               "schema": {
-                "type": "number",
-                "format": "double"
+                "$ref": "#/components/schemas/postTransacao"
               }
             },
             "text/json": {
               "schema": {
-                "type": "number",
-                "format": "double"
+                "$ref": "#/components/schemas/postTransacao"
               }
             },
             "application/*+json": {
               "schema": {
-                "type": "number",
-                "format": "double"
+                "$ref": "#/components/schemas/postTransacao"
               }
             }
           }
@@ -61,33 +48,22 @@
         }
       }
     },
-    "/transacao/deletandoTransacao": {
+    "/transacao/deletandoTransacao/{id}": {
       "delete": {
         "tags": [
           "transacao"
         ],
-        "requestBody": {
-          "content": {
-            "application/json": {
-              "schema": {
-                "type": "integer",
-                "format": "int32"
-              }
-            },
-            "text/json": {
-              "schema": {
-                "type": "integer",
-                "format": "int32"
-              }
-            },
-            "application/*+json": {
-              "schema": {
-                "type": "integer",
-                "format": "int32"
-              }
+        "parameters": [
+          {
+            "name": "id",
+            "in": "path",
+            "required": true,
+            "schema": {
+              "type": "integer",
+              "format": "int32"
             }
           }
-        },
+        ],
         "responses": {
           "200": {
             "description": "Success"
@@ -96,5 +72,27 @@
       }
     }
   },
-  "components": { }
+  "components": {
+    "schemas": {
+      "postTransacao": {
+        "type": "object",
+        "properties": {
+          "valor": {
+            "type": "number",
+            "format": "double"
+          },
+          "dataHora": {
+            "type": "string",
+            "format": "date-time"
+          },
+          "id": {
+            "type": "integer",
+            "format": "int32",
+            "readOnly": true
+          }
+        },
+        "additionalProperties": false
+      }
+    }
+  }
 }

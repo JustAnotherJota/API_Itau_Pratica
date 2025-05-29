@@ -4,6 +4,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 using API_Itau_Pratica.Application.Services;
+using API_Itau_Pratica.Domain.Dtos;
 using Microsoft.AspNetCore.Mvc;
 
 namespace API_Itau_Pratica.Controllers 
@@ -12,21 +13,21 @@ namespace API_Itau_Pratica.Controllers
     [Route("[Controller]")]
     public class transacaoController : ControllerBase
     {
-        transacaoService _transacaoService;
+        private readonly transacaoService _transacaoService;
         public transacaoController(transacaoService transacaoservice) 
         {
             _transacaoService = transacaoservice;
         }
 
         [HttpPost("fazendoTransacao")]
-        public IActionResult FazendoTransacao([FromBody]double valor, DateTime dateTime) 
+        public IActionResult FazendoTransacao([FromBody] postTransacao transacao) 
         {
-            var resultado = _transacaoService.FazendoTransacao(valor, dateTime);
+            var resultado = _transacaoService.FazendoTransacao(transacao);
             return Ok(resultado);
         }
 
-        [HttpDelete("deletandoTransacao")]
-        public IActionResult DeletandoTransacao([FromBody]int id) 
+        [HttpDelete("deletandoTransacao/{id}")]
+        public IActionResult DeletandoTransacao(int id) 
         {
             var resultado = _transacaoService.DeletandoTransacao(id);
             return Ok(resultado);

@@ -12,7 +12,7 @@ namespace API_Itau_Pratica.Persistance.Repositories
     public class estatisticaRepository : IestatisticaRepository
     {
         private readonly transacaoRepository _transacaoRepository; //injeção de dependência para utilizar
-
+        int tempo = -60;
         public estatisticaRepository(transacaoRepository transacaoRepository) 
         {
             _transacaoRepository = transacaoRepository;
@@ -20,17 +20,16 @@ namespace API_Itau_Pratica.Persistance.Repositories
 
         public string GetEstatistica()
         {
-            getEstatistica estasticas = new(contadorId(), soma(), average(), minimo(), maximo());
             return $"count: {contadorId()} \n" +
-                $"sum: {estasticas.sum} \n" +
-                $"avg: {estasticas.avg} \n" +
-                $"min: {estasticas.min} \n" +
-                $"max: {estasticas.max} \n";
+                $"sum: {soma()} \n" +
+                $"avg: {average()} \n" +
+                $"min: {minimo()} \n" +
+                $"max: {maximo()} \n";
         }
 
         public int contadorId()
         {
-            var contadorTempo = _transacaoRepository.transacaoList.Where(transacao => transacao.dataHora > DateTime.Now.AddSeconds(-60)).Count();
+            var contadorTempo = _transacaoRepository.transacaoList.Where(transacao => transacao.dataHora > DateTime.Now.AddSeconds(tempo)).Count();
             return contadorTempo;
         }
 
@@ -40,7 +39,7 @@ namespace API_Itau_Pratica.Persistance.Repositories
 
             foreach (transacao transacao in _transacaoRepository.transacaoList) //Soma total do valor transacionado nos últimos 60 segundos	
             {              //12:30:59            //12:35:59  - 12:35
-                if ((transacao.dataHora > DateTime.Now.AddSeconds(-60)))
+                if ((transacao.dataHora > DateTime.Now.AddSeconds(tempo)))
                     somaTransacao += transacao.valor;
             }
             return somaTransacao;
@@ -53,7 +52,7 @@ namespace API_Itau_Pratica.Persistance.Repositories
 
             foreach (transacao transacao in _transacaoRepository.transacaoList)
             {
-                if ((transacao.dataHora > DateTime.Now.AddSeconds(-60)))
+                if ((transacao.dataHora > DateTime.Now.AddSeconds(tempo)))
                 {
                     averageTransacao += transacao.valor;
                     contador++;
@@ -64,7 +63,7 @@ namespace API_Itau_Pratica.Persistance.Repositories
 
         public double minimo()  //usando LINQ
         {
-            var minimoTransacao = _transacaoRepository.transacaoList.Where(transacao => transacao.dataHora > DateTime.Now.AddSeconds(-60));
+            var minimoTransacao = _transacaoRepository.transacaoList.Where(transacao => transacao.dataHora > DateTime.Now.AddSeconds(tempo));
 
             if (!(minimoTransacao.Any()))   
                 return 0;
@@ -73,7 +72,7 @@ namespace API_Itau_Pratica.Persistance.Repositories
 
         public double maximo()  //usando LINQ
         {
-            var maximoTransacao = _transacaoRepository.transacaoList.Where(transacao => transacao.dataHora > DateTime.Now.AddSeconds(-60));
+            var maximoTransacao = _transacaoRepository.transacaoList.Where(transacao => transacao.dataHora > DateTime.Now.AddSeconds(tempo));
             if(!(maximoTransacao.Any())) return 0;
             return maximoTransacao.Max(transacao => transacao.valor);
 
