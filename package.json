@@ -10,6 +10,7 @@
     "api_itau_pratica": "./bin/server.js"
   },
   "scripts": {
+    "start": "node ./bin/server.js",
     "startdebug": "DEBUG=api:server node ./bin/server.js"
   },
   "dependencies": {
