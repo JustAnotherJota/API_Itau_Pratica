@@ -2,7 +2,7 @@
 
 Apenas peguei um desafio simples do Itaú para melhorar os fundamentos. Encontrei um vídeo no youtube e resolvi fazer, o repositório com o desáfio é -> https://github.com/feltex/desafio-itau-backend
 
-Me apaguei apenas a ideia geral do que a API deve retornar, sem levar em consideração o nome dos Endpoints ou os códigos de status, por exemplo.
+Me apeguei apenas a ideia geral do que a API deve retornar, sem levar em consideração o nome dos Endpoints ou os códigos de status, por exemplo.
 
 Bom, temos duas branch no momento para uma API que não usa banco de dados. É apenas uma API para entendimento tanto de Nodejs, quanto de C#, visitando os conceitos e as necessidades de cada linguagem armazenando em memória. 
 
