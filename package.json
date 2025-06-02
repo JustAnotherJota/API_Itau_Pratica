@@ -1,0 +1,21 @@
+{
+  "name": "api_itau_pratica",
+  "version": "1.0.0",
+  "description": "",
+  "license": "ISC",
+  "author": "",
+  "type": "commonjs",
+  "main": "bin/server.js",
+  "bin": {
+    "api_itau_pratica": "./bin/server.js"
+  },
+  "scripts": {
+    "startdebug": "DEBUG=api:server node ./bin/server.js"
+  },
+  "dependencies": {
+    "debug": "^4.4.1",
+    "express": "^5.1.0",
+    "http": "^0.0.1-security",
+    "normalize-port": "^1.0.0"
+  }
+}
