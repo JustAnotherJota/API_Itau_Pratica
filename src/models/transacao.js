@@ -1,11 +1,13 @@
 let identityManual = 1;
 
-class transacao {
+class Transacao {
 
-    constructor(valor, dataHora, id)
+    constructor(valor)
     {
         this.valor = valor;
         this.dataHora = new Date();
         this.id = identityManual++; 
     }
 }
+
+module.exports = Transacao;
