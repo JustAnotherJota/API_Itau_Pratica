@@ -11,9 +11,20 @@ exports.NomeMetodoGet = (request, response) => {
     })
 }
 
-exports.get = (request, response) => {
-    response.status(200).send({
+function deletando (id) {
 
+    var objctDeletado = "Sem Objeto Deletado";
+
+    var indexTransacao = listaTransacao.findIndex(transacao => (transacao.id == id, objctDeletado = transacao))
+
+    listaTransacao.splice(indexTransacao, 1);
+    debug('transacao deletada foi a' + JSON.stringify(objctDeletado));
+}
+
+exports.delete = (request, response) => {
+    deletando(request.params.id);
+    response.status(200).send({
+        message: `Requisição feita`
     })
 }
 
