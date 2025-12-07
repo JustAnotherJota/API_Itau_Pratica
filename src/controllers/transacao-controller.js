@@ -8,27 +8,23 @@ exports.post = (request, response) => {
     var novaTransacao = new Transacao (request.body.valor, request.body.DataHora);
     novaTransacao.dataHora = novaTransacao.dataHora /1000 ;
     listaTransacao.push(novaTransacao);
-    debug('Resposta em JSON' + JSON.stringify(novaTransacao));
     response.status(200).send({
         message:`Valor: ${novaTransacao.valor}, Hora:${novaTransacao.dataHora}`
     })
-    //console.log("Lista", listaTransacao);
 }
 
 exports.getEstatistica = (require,response) => {
     response.status(200).send({
-        count: transacaoService.count(),
-        sum: transacaoService.soma(),
-        avg: transacaoService.avg(),
-        max: transacaoService.max(),
-        min: transacaoService.min()
+        count: transacaoService.Count(),
+        sum: transacaoService.Soma(),
+        avg: transacaoService.Avg(),
+        max: transacaoService.Max(),
+        min: transacaoService.Min()
     })
-    //console.log("valores", transacaoService.count(), transacaoService.soma(), transacaoService.avg(), transacaoService.max(), transacaoService.min()); 
 }
 
 exports.deletando = (request, response) => {
-    transacaoService.deletandoTransacao();
-    console.log(transacaoService.deletandoTransacao());
+    transacaoService.DeletandoTransacao();
     response.status(200).send({
         message: 'Todas as informações foram apagadas com sucesso'
     })

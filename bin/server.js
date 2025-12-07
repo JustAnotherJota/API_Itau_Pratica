@@ -34,5 +34,4 @@ function OnError(error){
 function OnListening(){
     const addr = server.address(); //alocando o endereço do servidor
     const bind = typeof addr === 'string' ? 'pipe ' + addr: 'port ' + addr.port; //tradução do addr para exibir como string, validando se é named pipe ou porta que sendo utilizada
-    debug('Listening on: ' + bind); //debugando
 }

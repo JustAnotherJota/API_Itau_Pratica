@@ -4,53 +4,51 @@ const listaTransacao = require("../repositories/transacao-repository");
 
 //ver transaçoes e suas estatisticas dos ultimos 60 segundos; 
 
-
-function horarioAtual() {
-    const horarioAtual = Date.now()/1000; 
+function HorarioAtual() {
+    const horarioAtual = Date.now()/1000;
     return horarioAtual;
 }
 
-function ultimosSegundos () {
-    const ultimosSegundos = horarioAtual() - 60;
-    //console.log(ultimosSegundos);
+function UltimosSegundos () {
+    const ultimosSegundos = HorarioAtual() - 60;
     return ultimosSegundos;
 }
 
-function count(){
+function Count(){
     var countTransacao = 0;
     
     listaTransacao.forEach(transacao =>
     {
-        if(transacao.dataHora >= ultimosSegundos() && transacao.dataHora <= horarioAtual())
+        if(transacao.dataHora >= UltimosSegundos() && transacao.dataHora <= HorarioAtual())
              countTransacao ++;
     }
      )
      return countTransacao;
     }
 
-function soma(){
+function Soma(){
     var somaTransacao = 0;
 
     listaTransacao.forEach(transacao => {
-        if(transacao.dataHora >= ultimosSegundos() && transacao.dataHora <= horarioAtual())
+        if(transacao.dataHora >= UltimosSegundos() && transacao.dataHora <= HorarioAtual())
             somaTransacao += transacao.valor;
     })
     return somaTransacao;
 }
 
-function avg()
+function Avg()
 {
-    var avg = 0;
-    if (count() === 0)
-        return avg;
-    return avg = soma()/count();
+    var average = 0;
+    if (Count() === 0)
+        return average;
+    return average = Soma()/Count();
 }
 
-function max(){
+function Max(){
     var maximo = 0;
     if(listaTransacao.length > 0){
         listaTransacao.forEach(transacao => {
-            if(transacao.dataHora >= ultimosSegundos() && transacao.dataHora <= horarioAtual()){
+            if(transacao.dataHora >= UltimosSegundos() && transacao.dataHora <= HorarioAtual()){
                 if(maximo === 0)
                     maximo = transacao.valor;
                 
@@ -63,11 +61,11 @@ function max(){
     return maximo;
 }
 
-function min(){
+function Min(){
     var minimo = 0;
         if(listaTransacao.length > 0) {
             listaTransacao.forEach(transacao => {
-                if(transacao.dataHora >= ultimosSegundos() && transacao.dataHora <= horarioAtual()){
+                if(transacao.dataHora >= UltimosSegundos() && transacao.dataHora <= HorarioAtual()){
 
                     if(minimo === 0)
                         minimo = transacao.valor; 
@@ -81,9 +79,9 @@ function min(){
   return minimo;
 }
 
-function deletandoTransacao(){
+function DeletandoTransacao(){
     listaTransacao.length = 0;
     return `tamanho da lista: ${listaTransacao.length}`;
 }
 
-module.exports = {count, soma, avg, max, min, deletandoTransacao}; 
+module.exports = {Count, Soma, Avg, Max, Min, DeletandoTransacao}; 
