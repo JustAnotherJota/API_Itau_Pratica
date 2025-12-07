@@ -1,0 +1,19 @@
+{
+  "name": "itau_desafio",
+  "version": "1.0.0",
+  "description": "itau_desafio_api",
+  "license": "ISC",
+  "author": "",
+  "type": "commonjs",
+  "main": "index.js",
+  "scripts": {
+    "start": "node ./bin/server.js",
+    "startdebug": "DEBUG=api:server node ./bin/serverj.js"
+  },
+  "dependencies": {
+    "debug": "^4.4.3",
+    "express": "^5.2.1",
+    "http": "^0.0.1-security",
+    "normalize-port": "^1.0.0"
+  }
+}
