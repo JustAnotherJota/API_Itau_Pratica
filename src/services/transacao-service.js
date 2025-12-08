@@ -31,7 +31,9 @@ function Soma(){
 
     listaTransacao.forEach(transacao => {
         if(transacao.dataHora >= UltimosSegundos() && transacao.dataHora <= HorarioAtual())
-            somaTransacao += transacao.valor;
+            somaTransacao = parseFloat(somaTransacao) + parseFloat(transacao.valor);
+            
+        return somaTransacao;
     })
     return somaTransacao;
 }

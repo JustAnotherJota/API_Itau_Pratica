@@ -7,13 +7,16 @@
   "type": "commonjs",
   "main": "index.js",
   "scripts": {
-    "start": "node ./bin/server.js",
-    "startdebug": "DEBUG=api:server node ./bin/serverj.js"
+    "start": "node --watch ./bin/server.js"
   },
   "dependencies": {
+    "cors": "^2.8.5",
     "debug": "^4.4.3",
     "express": "^5.2.1",
     "http": "^0.0.1-security",
     "normalize-port": "^1.0.0"
+  },
+  "devDependencies": {
+    "nodemon": "^3.1.11"
   }
 }
